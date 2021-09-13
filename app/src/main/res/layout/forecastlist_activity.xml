@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="150">
+
+        <TextView
+            android:id="@+id/listView_dayTitle"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="Title"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="120">
+
+        <TextView
+            android:id="@+id/listView_dayText"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:text="Day"
+            />
+
+
+        <TextView
+            android:id="@+id/listView_dayTemp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="5000"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"  />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="120">
+
+        <TextView
+            android:id="@+id/listView_nightText"
+            android:gravity="center"
+            android:text="Night"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <TextView
+            android:id="@+id/listView_nightTemp"
+            android:gravity="center"
+            android:text="2020-02-02"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/listView_amount"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="130"
+        >
+
+        <TextView
+            android:id="@+id/weather_mainAndDescription"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Hello"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
