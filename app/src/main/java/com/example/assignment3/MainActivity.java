@@ -115,13 +115,10 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject jsonPopulation = jsonPopulationData.getJSONObject(0);
                     String year = jsonPopulation.getString("year");
                     String value = jsonPopulation.getString("value");
-                    String sex = jsonPopulation.getString("sex");
-                    String reliability = jsonPopulation.getString("reliabilty");
 
                     output += "City: "+city
                             + "\n Country: "+country
                             +"\n City population: "+ value
-                            +"\n Sex: "+ sex
                             +"\n Last updated: "+ year;
 
                     tvResult.setText(output);

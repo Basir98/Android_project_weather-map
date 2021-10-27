@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:text="Back to Main"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         android:id="@+id/btnGoBackToMain"
         android:textColor="@color/white"
         />
@@ -24,7 +26,7 @@
         android:layout_height="match_parent"
         tools:context="com.example.mapwithmarker.MapsMarkerActivity"
         android:layout_below="@+id/btnGoBackToMain"
-        android:layout_marginTop="10px"
+        android:layout_marginTop="10dp"
         >
 
     </fragment>
